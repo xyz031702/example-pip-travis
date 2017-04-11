@@ -1,0 +1,11 @@
+language: python
+python:
+  - 2.7
+install:
+  - python setup.py install
+script:
+  - echo "no scripts"
+after_success:
+  - pip install hub-pip
+  - python setup.py hub_pip --DeployHubBdio=false
+  - bash <(curl -s https://copilot.blackducksoftware.com/bash/travis) ./build/blackduck/*.jsonld
