@@ -1,5 +1,7 @@
 # Black Duck CoPilot pip/Travis CI Example
 
+[![Build Status](https://travis-ci.org/BlackDuckCoPilot/example-pip-travis.svg?branch=master)](https://travis-ci.org/BlackDuckCoPilot/example-pip-travis) [![Black Duck Security Risk](https://copilot.blackducksoftware.com/github/groups/BlackDuckCoPilot/locations/example-pip-travis/public/results/branches/master/badge-risk.svg)](https://copilot.blackducksoftware.com/github/groups/BlackDuckCoPilot/locations/example-pip-travis/public/results/branches/master)
+
 Shows a working setup for using the Black Duck CoPilot integration to analyze the risk of project dependencies
 
 ## Travis CI Setup
