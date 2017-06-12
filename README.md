@@ -10,7 +10,7 @@ The `.travis.yml` file has been modified to upload the generated data to Black D
 
 ```yaml
 after_success:
-- pip install hub-pip==1.0.0
+- pip install hub-pip==1.1.0
 - python setup.py hub_pip --DeployHubBdio=false
 - bash <(curl -s https://copilot.blackducksoftware.com/bash/travis) ./build/blackduck/*.jsonld
 ```
