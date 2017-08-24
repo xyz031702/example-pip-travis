@@ -7,4 +7,5 @@ script:
   - echo "no scripts"
 after_success:
   - export COPILOT_DETECT_VERSION=1.1.0-SNAPSHOT
+  - export DETECT_USE_SNAPSHOT=1
   - bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/travis/scripts/upload)
